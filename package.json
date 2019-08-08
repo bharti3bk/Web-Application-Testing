@@ -1,0 +1,26 @@
+{
+  "name": "component-testing",
+  "version": "1.0.0",
+  "description": "In this project, you will demonstrate proficiency by writing unit tests and production code to satisfy the _Minimum Viable Product_ described below.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bharti3bk/Web-Application-Testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bharti3bk/Web-Application-Testing/issues"
+  },
+  "homepage": "https://github.com/bharti3bk/Web-Application-Testing#readme",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  },
+  "dependencies": {
+    "create-react-app": "^3.0.1"
+  }
+}
