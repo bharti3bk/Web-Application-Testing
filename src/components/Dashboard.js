@@ -9,8 +9,8 @@ const activities = [
   { key: "fo", value: "fo", text: "Foul" }
 ];
 
-export default function Dashboard() {
-  const [state, setState] = useState({ balls: 0, strikes: 0, activity:"" });
+export default function Dashboard({intitialActivity = "", initialStrikes = 0, initialBalls = 0}) {
+  const [state, setState] = useState({ balls: initialBalls, strikes: initialStrikes, activity:intitialActivity });
 
   function updateStats() {
     switch(state.activity) {
