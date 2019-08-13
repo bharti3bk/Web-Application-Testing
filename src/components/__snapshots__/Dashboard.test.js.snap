@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders  1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      aria-expanded="false"
+      class="ui selection dropdown"
+      role="listbox"
+      tabindex="0"
+    >
+      <div
+        aria-atomic="true"
+        aria-live="polite"
+        class="default text"
+        role="alert"
+      >
+        Select Activity
+      </div>
+      <i
+        aria-hidden="true"
+        class="dropdown icon"
+      />
+      <div
+        class="menu transition"
+      >
+        <div
+          aria-checked="false"
+          aria-selected="true"
+          class="selected item"
+          role="option"
+          style="pointer-events: all;"
+        >
+          <span
+            class="text"
+          >
+            Strike
+          </span>
+        </div>
+        <div
+          aria-checked="false"
+          aria-selected="false"
+          class="item"
+          role="option"
+          style="pointer-events: all;"
+        >
+          <span
+            class="text"
+          >
+            Ball
+          </span>
+        </div>
+        <div
+          aria-checked="false"
+          aria-selected="false"
+          class="item"
+          role="option"
+          style="pointer-events: all;"
+        >
+          <span
+            class="text"
+          >
+            Hit
+          </span>
+        </div>
+        <div
+          aria-checked="false"
+          aria-selected="false"
+          class="item"
+          role="option"
+          style="pointer-events: all;"
+        >
+          <span
+            class="text"
+          >
+            Foul
+          </span>
+        </div>
+      </div>
+    </div>
+    <button>
+       Update Stats
+    </button>
+    <div
+      class="display"
+    >
+      <p>
+         Balls: 0
+      </p>
+      <p>
+         Strikes: 0
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
